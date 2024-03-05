@@ -1,0 +1,2 @@
+docker build -t ddns:latest .
+docker run --name ddns -d --restart=always ddns
